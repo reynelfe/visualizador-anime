@@ -31,7 +31,13 @@ La app **no aloja ningún archivo de vídeo ni audio**. Todo el catálogo, las i
 
 Versión `1.2.6`, verificada en un emulador Android TV 13 (API 33) y en un **4K Google TV Stick** (Android 14, `armeabi-v7a`).
 
-APK listo para instalar:
+APK listo para instalar (GitHub Releases):
+
+```
+https://github.com/reynelfe/visualizador-anime/releases/tag/v1.2.6
+```
+
+También se genera localmente en:
 
 ```
 dist/AnimeAVTV-1.2.6-release.apk
