@@ -259,3 +259,9 @@ El token se guarda solo en el dispositivo (`SharedPreferences`) y nunca se enví
 ## Aviso legal
 
 Este proyecto es un cliente no oficial, personal y educativo. **No aloja, transmite ni distribuye contenido audiovisual.** No está afiliado a AnimeAV1 ni a sus proveedores. Los nombres, imágenes y marcas pertenecen a sus respectivos titulares. El usuario es responsable de cumplir las leyes de su país y los términos de servicio de los sitios que utilice.
+
+## Licencia
+
+El código de este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE).
+
+La licencia cubre únicamente el código de la aplicación. El catálogo, las imágenes, los metadatos, las marcas y los vídeos pertenecen a sus respectivos titulares; este proyecto no aloja ni redistribuye ese contenido.
