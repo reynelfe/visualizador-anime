@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="anime_red">#E53935</color>
+    <color name="anime_background">#09090C</color>
+    <color name="anime_surface">#15151D</color>
+</resources>

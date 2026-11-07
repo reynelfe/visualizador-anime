@@ -1,0 +1,43 @@
+AnimeAV TV 1.2.6 (release)
+==========================
+
+Package: com.animeav.tv.debug
+Activity: com.animeav.tv.MainActivity
+Min SDK: 23 (Android 5.1)
+Target SDK: 35
+ABIs: arm64-v8a, armeabi-v7a, x86
+SHA-256: 4fa4ba3bb390edaf97f32da67cb154e850ca69751344fa1f4e72ff25470dab6e
+
+Instalar por ADB:
+  adb install -r AnimeAVTV-1.2.6-release.apk
+
+Abrir:
+  adb shell am start -n com.animeav.tv.debug/com.animeav.tv.MainActivity
+
+Novedades de 1.2.6:
+- Release con R8 + Baseline Profile: arranque ~1,3 s en el 4K Google TV Stick.
+- Navegación con el D-pad instantánea: 1-2 fotogramas por pulsación, sin la
+  animación de pivote de 125 ms que tenía Compose.
+- Menos trabajo de GPU por fotograma (6-8 ms) y navegación entre pantallas sin
+  transiciones a pantalla completa.
+- Las filas del inicio y de Mi lista muestran tarjetas completas, sin cortes en
+  el borde derecho; los chips del catálogo se difuminan en el borde.
+- El JSON de AnimeAV1 se procesa fuera del hilo principal.
+
+Controles:
+- CENTER: play/pausa o activar el botón seleccionado.
+- IZQUIERDA/DERECHA: mover la selección o seek si los controles están ocultos.
+- ARRIBA/ABAJO: cambiar entre fila superior e inferior.
+- MENU: Opciones del episodio.
+- ATRAS: cerrar menú, ocultar controles o guardar y salir.
+
+Estado de servidores:
+- HLS: funciona (predeterminado).
+- MP4Upload: funciona.
+- Voe: carga anuncio y audio; cerrar el anuncio.
+- Byse: carga y reproduce audio.
+- UPNShare: no disponible (turboembed vacío).
+
+Notas:
+- La app no aloja contenido. Los datos y streams se obtienen de animeav1.com.
+- AniList requiere un Client ID propio.

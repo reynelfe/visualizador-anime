@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Configuración local (ruta del SDK, credenciales)
+local.properties
+keystore.properties
+
+# Firmas
+*.jks
+*.keystore
+
+# APKs y bundles (los binarios van en GitHub Releases)
+*.apk
+*.aab
+*.ap_
+dist/*.apk
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs temporales
+*.log
